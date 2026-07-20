@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use NuHEAMine in your research, please cite the software and the associated publication."
+title: "NuHEAMine: A Nuclear-Use High-Entropy Alloy Data Management and Mining Platform"
+type: software
+authors:
+  - name: "NuHEAMine contributors"
+version: 1.0.0
+date-released: 2026-07-19
+license: MIT
+

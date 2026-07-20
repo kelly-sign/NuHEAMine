@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NuHEAMine">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1769aa"/>
+      <stop offset="1" stop-color="#26a69a"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#g)" d="M32 3 56 17v30L32 61 8 47V17z"/>
+  <path fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M20 43V21l12 14 12-14v22"/>
+</svg>

@@ -1,0 +1,63 @@
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Python environments, caches, and test output
+/.venv/
+/venv/
+/env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Node and Vue generated files
+node_modules/
+/dist/
+/build/
+.eslintcache
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime state and secrets
+.env
+.env.local
+.env.*.local
+*.log
+*.pid
+*.tmp
+*.temp
+/staticfiles/
+/media/
+/uploads/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Prediction runtime and training output
+/HV-Prediction/debug_runtime/
+/HV-Prediction/utils/cache/
+/HV-Prediction/hv_predict_*/
+/HV-Prediction/hv_predict_batch_*/
+/HV-Prediction/feature_summary_HV.xlsx
+/HV-Prediction/Forward_Selection_CV_R2.svg
+/HV-Prediction/job.*.log
+/HV-Prediction/outputs/*
+!/HV-Prediction/outputs/model_20260320_062441/
+!/HV-Prediction/outputs/model_20260320_062441/*.pkl

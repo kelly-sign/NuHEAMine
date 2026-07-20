@@ -1,0 +1,20 @@
+# Tested with CPython 3.8.19. The scientific stack is pinned because the
+# bundled scikit-learn model is serialized with scikit-learn 1.3.2.
+Django==4.2.19
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.0
+django-filter==24.3
+PyMySQL==1.1.1
+python-dotenv==1.0.1
+
+numpy==1.24.4
+scipy==1.10.1
+pandas==1.2.4
+scikit-learn==1.3.2
+joblib==1.4.2
+
+openpyxl==3.1.2
+XlsxWriter==3.2.3
+psutil==5.9.6
+PyJWT==2.8.0

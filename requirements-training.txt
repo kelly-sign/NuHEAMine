@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# Additional packages used by HV-Prediction/train.py.
+optuna==4.3.0
+lightgbm==4.6.0
+xgboost==2.1.4
+matplotlib==3.5.1
+seaborn==0.13.2
+tqdm==4.67.1
+PyYAML==6.0.1
